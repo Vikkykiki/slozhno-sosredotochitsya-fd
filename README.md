@@ -1,6 +1,6 @@
 ### Ссылка на репозиторий:
 
-https://github.com/Vikkykiki/slozhno-sosredotochitsya
+https://github.com/Vikkykiki/slozhno-sosredotochitsya-fd
 
 # Проект "Сложно сосредоточиться"
 
