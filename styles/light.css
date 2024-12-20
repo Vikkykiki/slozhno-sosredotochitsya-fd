@@ -4,16 +4,16 @@
   --color-title: #ffc2e6;
   --accent-color: #353430;
   --bg-color-text: #ff0070;
-  --color-subtitle-h2: #353430;
-  --color-subtitle-h3: #353430;
+  --color-main-title: #353430;
+  --color-main-subtitle: #353430;
   --color-text: #353430;
-  --global-font-family: "IBM Plex Mono";
-  --font-size-theme-menu-item: 18px;
-  --title-decor: #ff8dcb;
+/*  --global-font-family: "IBM Plex Mono";*/
+/*  --font-size-theme-menu-item: 18px;*/
   --color-button-hover: rgb(50 49 45 / 0.4);
+  --title-decor: #FFC2E6;
 }
 
-.page.theme_light .rec_zapisi {
+.page.theme_light .rec {
   display: none;
 }
 
@@ -24,16 +24,16 @@
     --color-title: #ffc2e6;
     --accent-color: #353430;
     --bg-color-text: #ff0070;
-    --color-subtitle-h2: #353430;
-    --color-subtitle-h3: #353430;
+    --color-main-title: #353430;
+    --color-main-subtitle: #353430;
     --color-text: #353430;
-    --global-font-family: "IBM Plex Mono";
-    --font-size-theme-menu-item: 18px;
+/*    --global-font-family: "IBM Plex Mono";*/
+/*    --font-size-theme-menu-item: 18px;*/
     --title-decor: #ff8dcb;
     --color-button-hover: rgb(50 49 45 / 0.4);
   }
 
-  .rec_zapisi {
+  .rec {
     display: none;
   }
 }
