@@ -10,11 +10,21 @@
 /*  --global-font-family: "IBM Plex Mono";*/
 /*  --font-size-theme-menu-item: 18px;*/
   --color-button-hover: rgb(50 49 45 / 0.4);
-  --title-decor: #FFC2E6;
+  --title-decor: #FF8DCB;
+  --border-color: #353430;
 }
 
 .page.theme_light .rec {
   display: none;
+}
+
+.text-link {
+    text-shadow: 2px 2px 0 var(--title-decor);
+}
+
+.text-link:focus {
+  color: var(--border-color);
+  outline: 1px solid var(--border-color);
 }
 
 @media (prefers-color-scheme: light) {
@@ -29,7 +39,7 @@
     --color-text: #353430;
 /*    --global-font-family: "IBM Plex Mono";*/
 /*    --font-size-theme-menu-item: 18px;*/
-    --title-decor: #ff8dcb;
+    --title-decor: #FF8DCB;
     --color-button-hover: rgb(50 49 45 / 0.4);
   }
 

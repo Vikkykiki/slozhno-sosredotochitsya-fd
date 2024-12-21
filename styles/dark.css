@@ -11,6 +11,7 @@
 /*  --font-size-theme-menu-item: 18px;*/
   --color-button-hover: rgb(255 0 112 / 0.4);
   --title-decor: #FF0070;
+  --border-color: #F1B2CE;
 
 /*  background-image: url(../images/cover-image-dark.png);*/
 }
@@ -23,7 +24,12 @@
     text-shadow: 2px 2px 0 var(--title-decor);
 }
 
-@media (prefers-color-scheme: dark) {
+.text-link:focus {
+  color: var(--border-color);
+  outline: 1px solid var(--border-color);
+}
+
+@media (prefers-color-scheme) {
   :root {
     --bg-color: #000028;
     --bg-image: url(../images/cover-image-dark.png);

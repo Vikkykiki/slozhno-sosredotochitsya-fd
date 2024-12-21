@@ -1,7 +1,3 @@
- * {
-  outline: 1px solid цвет;
-}
-
 .page {
   min-width: 375px;
   background-image: var(--bg-image);
@@ -178,7 +174,8 @@ span {
 }
 
 .text-link:focus-visible {
-  outline: 1px solid var(--accent-color);
+  outline: 1px solid var(--border-color);
+  border-bottom: none;
 }
 
 .content_text-block {
