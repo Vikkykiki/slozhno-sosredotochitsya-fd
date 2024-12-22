@@ -7,8 +7,6 @@
   --color-main-title: #ff0070;
   --color-main-subtitle: #000028;
   --color-text: #f1b2ce;
-/*  --global-font-family: "IBM Plex Mono";*/
-/*  --font-size-theme-menu-item: 18px;*/
   --color-button-hover: rgb(255 0 112 / 0.4);
   --title-decor: #FF0070;
   --border-color: #F1B2CE;
@@ -36,13 +34,12 @@
     --color-title: #db00ff;
     --accent-color: #ff0070;
     --bg-color-text: #ff0070;
-    --color-main-title: #FF0070;
+    --color-main-title: #ff0070;
     --color-main-subtitle: #000028;
     --color-text: #f1b2ce;
-/*    --global-font-family: "IBM Plex Mono";*/
-/*    --font-size-theme-menu-item: 18px;*/
     --color-button-hover: rgb(255 0 112 / 0.4);
-    --title-decor: #FF8DCB;
+    --title-decor: #FF0070;
+    --border-color: #F1B2CE;
   }
 
   .rec {

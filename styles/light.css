@@ -37,10 +37,9 @@
     --color-main-title: #353430;
     --color-main-subtitle: #353430;
     --color-text: #353430;
-/*    --global-font-family: "IBM Plex Mono";*/
-/*    --font-size-theme-menu-item: 18px;*/
     --title-decor: #FF8DCB;
     --color-button-hover: rgb(50 49 45 / 0.4);
+     --border-color:#353430;
   }
 
   .rec {
