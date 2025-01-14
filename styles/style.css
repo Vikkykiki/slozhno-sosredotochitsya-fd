@@ -166,7 +166,7 @@ span {
 }
 
 .text-link {
-  text-shadow: 2px 2px 0 var(--bg-color-text);
+  text-shadow: 2px 2px 0 var(--title-decor);
 }
 
 .text-link:hover {
