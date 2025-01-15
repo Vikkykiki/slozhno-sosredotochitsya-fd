@@ -16,15 +16,6 @@
   display: none;
 }
 
-.text-link {
-    text-shadow: 2px 2px 0 var(--title-decor);
-}
-
-.text-link:focus {
-  color: var(--border-color);
-  outline: 1px solid var(--border-color);
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     --bg-color: #fff1f7;
@@ -35,9 +26,9 @@
     --color-main-title: #353430;
     --color-main-subtitle: #353430;
     --color-text: #353430;
-    --title-decor: #FF8DCB;
     --color-button-hover: rgb(50 49 45 / 0.4);
-     --border-color:#353430;
+    --title-decor: #FF8DCB;
+    --border-color:#353430;
   }
 
   .rec {

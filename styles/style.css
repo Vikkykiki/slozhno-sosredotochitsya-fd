@@ -21,7 +21,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  max-block-size: 668px;
+  min-block-size: 668px;
   block-size: 100vh;
   inline-size: 100%;
 }
@@ -62,6 +62,7 @@
   font-weight: var(--font-weight-content-list);
   line-height: 25px;
   text-transform: uppercase;
+  display: block;
 }
 
 .rec::after {
@@ -170,12 +171,17 @@ span {
 }
 
 .text-link:hover {
-  border-bottom: 1px solid var(--color-text);
+  border-bottom: 1px solid var(currentColor);
 }
 
 .text-link:focus-visible {
-  outline: 1px solid var(--border-color);
+  outline: 1px solid var(currentColor);
   border-bottom: none;
+}
+
+.text-link:focus {
+  color: var(--border-color);
+  outline: 1px solid var(--border-color);
 }
 
 .content_text-block {
@@ -223,6 +229,7 @@ span {
 .footer {
   position: relative;
   block-size: 100vh;
+  min-block-size: 668px;
   display: grid;
   align-content: center;
   justify-content: center;
@@ -240,7 +247,8 @@ span {
 /*медиа-запросы 768*/
 @media (width >= 768px) {
   .header {
-    max-block-size: 1024px;
+/*    max-block-size: 1024px;*/
+    min-height: 668px;
   }
 
   .decorated_zone::before {
