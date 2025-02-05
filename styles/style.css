@@ -6,7 +6,7 @@
   background-size: cover;
   background-attachment: fixed;
   background-color: var(--bg-color);
-  font-family: var(--global-font-family);
+  font-family: var(--global-font-family), monospace;
   font-weight: var(--font-weight-content-list);
   line-height: var(--line-height);
   text-align: var(--text-align);
@@ -171,11 +171,11 @@ span {
 }
 
 .text-link:hover {
-  border-bottom: 1px solid var(currentColor);
+  border-bottom: 1px solid var(--color-button-hover);
 }
 
 .text-link:focus-visible {
-  outline: 1px solid var(currentColor);
+  outline: 1px solid var(--border-color);
   border-bottom: none;
 }
 
