@@ -11,3 +11,7 @@
   --title-decor: #FF0070;
   --border-color: #F1B2CE;
 }
+
+.page.theme_dark .rec {
+  display: block;
+}
