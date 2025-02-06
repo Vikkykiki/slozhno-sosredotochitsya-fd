@@ -7,7 +7,7 @@
   --color-main-title: #353430;
   --color-main-subtitle: #353430;
   --color-text: #353430;
-  --color-button-hover: #353430;
+  --color-button-hover: rgb(50, 49, 45, 0.4);
   --title-decor: #FF8DCB;
   --border-color: #353430;
 }
